@@ -9,7 +9,6 @@ const Statistics = () => {
                 <div className={main.flexC}>
                     <h2>Last year statistics</h2>
                     <AnimatedNumber end={3} text={'days'}></AnimatedNumber>
-
                     <AnimatedNumber end={46} text={'experts'}></AnimatedNumber>
                     <AnimatedNumber text={'guests'} end={9890}></AnimatedNumber>
 
