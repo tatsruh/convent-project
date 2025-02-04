@@ -1,0 +1,14 @@
+.centerDiv {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.sideDiv {
+    width: 25%;
+}
+.main {
+    height: 80%;
+}
