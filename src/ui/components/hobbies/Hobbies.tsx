@@ -17,7 +17,7 @@ const Hobbies = () => {
         dispatch(filterActivities({hobbies: hobbiesArr}));
     }
     return (
-        <div className={s.hobbies_container}>
+        <div className={s.hobbies_container} id="about">
             <div className={main.container}>
                 <div className={main.flexC}>
                     <h2>Choose Your Activity</h2>

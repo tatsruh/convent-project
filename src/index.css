@@ -10,6 +10,8 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+
 }
 
 a {
@@ -25,6 +27,7 @@ a:hover {
 body {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 button {
     font-family: 'Cinzel', serif;

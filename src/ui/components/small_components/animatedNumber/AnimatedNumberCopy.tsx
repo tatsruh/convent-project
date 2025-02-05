@@ -10,10 +10,10 @@ type Props = {
 
 const AnimatedNumber = (props: Props) => {
     return (
-        <div className={s.container}>
-        <Typography variant="h4">
-            <CountUp className={s.number} start={props.start} end={props.end} duration={3} separator="," />
-        </Typography>
+        <div className={s.containerCopy}>
+            <Typography variant="h4">
+                <CountUp className={s.number} start={props.start} end={props.end} duration={5} separator="" />
+            </Typography>
             <span className={s.span}>{props.text}</span>
         </div>
     );
