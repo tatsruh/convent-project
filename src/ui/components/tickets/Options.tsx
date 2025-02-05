@@ -10,7 +10,7 @@ const Options = (props: propsOptions) => {
         <div>
             <ul className={s.ul}>
                 {props.options.map((option, index) => (
-                    <li><Option text={option.text} img={option.logo} isActive={option.isActive} key={index}/></li>
+                    <li key={index}><Option text={option.text} img={option.logo} isActive={option.isActive} key={index}/></li>
                 ))}
             </ul>
         </div>

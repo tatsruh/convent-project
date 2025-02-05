@@ -22,7 +22,7 @@ const Hobbies = () => {
                 <div className={main.flexC}>
                     <h2>Choose Your Activity</h2>
                     <ul className={s.ul}> {hobbiesArr.map((hobby) => (
-                        <li>
+                        <li key={hobby.id}>
                             <HobbyIcon key={hobby.id} id={hobby.id} icon={hobby.url} name={hobby.tag}
                                        checked={hobby.checked}/>
                         </li>
