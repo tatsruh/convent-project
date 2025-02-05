@@ -71,7 +71,7 @@ export const hobbiesSlice = createSlice({
                 return timeA - timeB;
             })
         }),
-        changeMenu: create.reducer((state, action) => {
+        changeMenu: create.reducer((state) => {
             state.menuIsOpen = !state.menuIsOpen
         })
 
