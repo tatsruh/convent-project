@@ -61,7 +61,7 @@ const cardVariants: Variants = {
     },
 }
 
-const hue = () => `hsl(82, 39%, 30%)`; // Dark olive green
+const hue = (value: number) => `hsl(${value}, 39%, 30%)`; // Dark olive green
 
 /**
  * ==============   Styles   ================
