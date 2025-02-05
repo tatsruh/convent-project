@@ -9,7 +9,7 @@ const CountdownSection = () => {
         <div className={s.section_container}>
 
         <div className={main.container}>
-            <div className={main.flexR}>
+            <div className={s.flexR}>
             <Timer expiryTimestamp={time}></Timer>
             </div>
         </div>

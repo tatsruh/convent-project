@@ -19,3 +19,11 @@
     background-color: white;
     color: rgba(85, 107, 47);
 }
+@media (max-width: 800px) {
+    .button {
+        width: 280px;
+        height: 60px;
+        font-size: 1rem
+    }
+
+}

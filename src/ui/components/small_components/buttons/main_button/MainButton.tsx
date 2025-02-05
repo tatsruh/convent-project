@@ -7,7 +7,7 @@ type Props = {
 
 const MainButton = (props: Props) => {
     return (
-            <a href={props.src} target="_blank" rel="noopener noreferrer">
+            <a href={props.src} rel="noopener noreferrer">
                 <div className={s.container}>
                     <img className={s.img} src={props.img} alt="button_icon"/>
                     <span>{props.name}</span>

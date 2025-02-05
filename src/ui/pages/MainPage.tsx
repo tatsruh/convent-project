@@ -20,6 +20,7 @@ const MainPage = () => {
                 <CountdownSection></CountdownSection>
                 <Tickets></Tickets>
                 <Footer></Footer>
+
             </div>
 
         </>

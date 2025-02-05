@@ -14,7 +14,9 @@ const Footer = () => {
                 </div>
 
             <ScrollTriggered></ScrollTriggered>
-                <SocialMedias></SocialMedias>
+
+               <div className={main.show_big}>
+                   <SocialMedias></SocialMedias></div>
             </div>
         </div>
         </div>

@@ -12,7 +12,7 @@ const Active = (props: ActivityProps) => {
     return (<>
 
             <h3 className={s.h3}>{props.day}</h3>
-            <ul>
+            <ul className={s.ul}>
                 {props.array.length > 0 ? (
                     props.array.map((act) => (
                         <li className={s.li} key={act.id}><>

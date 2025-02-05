@@ -71,3 +71,11 @@
     justify-content: center;
     gap: 30px;
 }
+@media (max-width: 800px) {
+    .tickets_container_container  {
+        flex-direction: column;
+    }
+    .ticket_container {
+        max-width: 300px;
+    }
+}

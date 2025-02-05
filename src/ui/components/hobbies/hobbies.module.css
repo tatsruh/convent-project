@@ -23,6 +23,7 @@
         margin-bottom: 10px;
     }
 }
+
 .ul {
     display: flex;
     flex-direction: row;
@@ -30,6 +31,7 @@
     align-items: center;
     padding-left: 0;
 }
+
 .active {
     background-color: rgba(85, 107, 47, 0.8);
     cursor: pointer;
@@ -45,4 +47,15 @@
 .icon_container_container:hover {
     background-color: rgba(85, 107, 47, 0.8);
     cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .ul {
+        flex-wrap: wrap;
+        padding-left: 0;
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
 }

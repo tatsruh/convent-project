@@ -43,7 +43,8 @@ export const hobbiesSlice = createSlice({
             {tag: ['RPG', 'Boardgames'], description: 'Presentation of a new game', day: 'Saturday', id: 8, time: '21:00'},
 
         ] as Activity[],
-        filteredActivities: [] as Activity[]
+        filteredActivities: [] as Activity[],
+        menuIsOpen: false as boolean
 
     },
     reducers: create => ({
@@ -69,15 +70,19 @@ export const hobbiesSlice = createSlice({
                 // @ts-ignore
                 return timeA - timeB;
             })
+        }),
+        changeMenu: create.reducer((state, action) => {
+            state.menuIsOpen = !state.menuIsOpen
         })
 
     }),
     selectors: {
         selectHobbies: (state) => state.hobbies_cards,
-        selectActivities: (state) => state.filteredActivities
+        selectActivities: (state) => state.filteredActivities,
+        selectMenu: (state) => state.menuIsOpen
 
     }
 })
-export const {changeStatus, filterActivities} = hobbiesSlice.actions;
+export const {changeStatus, filterActivities, changeMenu} = hobbiesSlice.actions;
 export const hobbiesReducer = hobbiesSlice.reducer;
-export const {selectHobbies, selectActivities} = hobbiesSlice.selectors;
+export const {selectHobbies, selectActivities, selectMenu} = hobbiesSlice.selectors;
