@@ -79,6 +79,15 @@ h2 {
     h2 {
         margin: 30px auto;
     }
+    a {
+        font-weight: 500;
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: darkolivegreen;
+    }
 }
 @media (max-width: 760px) {
 

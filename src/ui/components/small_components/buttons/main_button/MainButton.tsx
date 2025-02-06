@@ -10,7 +10,7 @@ const MainButton = (props: Props) => {
             <a href={props.src} rel="noopener noreferrer">
                 <div className={s.container}>
                     <img className={s.img} src={props.img} alt="button_icon"/>
-                    <span>{props.name}</span>
+                    <span className={s.span}>{props.name}</span>
                 </div>
             </a>
     );
