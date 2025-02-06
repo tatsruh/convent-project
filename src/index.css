@@ -44,7 +44,9 @@ button {
 li {
     list-style: none;
 }
-
+button {
+    touch-action: manipulation;
+}
 h1 {
     font-size: 5em;
     line-height: 1.1;

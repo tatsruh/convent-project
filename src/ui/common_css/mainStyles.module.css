@@ -40,10 +40,10 @@
         max-width: 1000px;
     }
     .show_big {
-        display: none;
+        display: block;
     }
     .show_small {
-        display: block;
+        display: none;
     }
 }
 
