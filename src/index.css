@@ -13,7 +13,13 @@
     overflow-x: hidden;
     width: 100%;
 }
-
+html, body {
+    overflow-x: hidden !important;
+    width: 100%;
+}
+body.no-scroll {
+    overflow: hidden;
+}
 a {
     font-weight: 500;
     color: white;

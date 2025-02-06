@@ -12,7 +12,7 @@ export const MobileNavigation = () => {
     const isActive = useSelector(selectMenu)
     return (
         <div className={main.show_small}>
-            <ul className={isActive ? h.ul : `${h.ul} ${h.active}`}>
+            <ul className={isActive ? `${h.ul} ${h.active}`: h.ul }>
                 {navArr.map((item, i) => (
                     <li onClick={onClick} key={i}><a href={`#${item}`}>{item}</a></li>
                 ))}
