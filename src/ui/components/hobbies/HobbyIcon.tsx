@@ -13,7 +13,7 @@ const HobbyIcon = ({icon, name, checked, id}: HobbyIconProps) => {
       dispatch(changeStatus({hobbyId: id}))
     }
     return (
-        <div className={checked ? s.active : s.icon_container_container} onTouchStart={onClick} onClick={onClick}>
+        <div className={checked ? s.active : s.icon_container_container} onClick={onClick}>
             <div className={s.icon_container}>
                 <img src={icon} alt={name}/>
                 <span>{name}</span>
